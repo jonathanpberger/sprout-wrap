@@ -21,7 +21,7 @@ cookbook 'sprout-osx-apps',
   :github => 'pivotal-sprout/sprout-osx-apps'
 
 cookbook 'sprout-osx-settings',
-  :github => 'pivotal-sprout/sprout-osx-settings'
+  :github => 'jonathanpberger/sprout-osx-settings'
 
 cookbook 'osx',
   :github => 'pivotal-sprout/osx'
@@ -40,3 +40,6 @@ cookbook 'sprout-postgresql',
 
 cookbook 'sprout-ssh',
   :github => 'pivotal-sprout/sprout-ssh'
+
+cookbook 'sprout-vim',
+  :github => 'pivotal-sprout/sprout-vim'
