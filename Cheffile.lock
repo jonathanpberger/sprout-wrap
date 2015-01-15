@@ -5,6 +5,16 @@ SITE
     homebrew (1.10.0)
 
 GIT
+  remote: https://github.com/jonathanpberger/sprout-osx-settings
+  ref: master
+  sha: 418478ba60ba182152c1d26f1f513b6e89931bd1
+  specs:
+    sprout-osx-settings (0.1.0)
+      homebrew (>= 0.0.0)
+      osx (>= 0.0.0)
+      sprout-base (>= 0.0.0)
+
+GIT
   remote: https://github.com/pivotal-sprout/osx
   ref: master
   sha: 70ef029c8b25dbab5be2fb328b987297c05936db
@@ -54,16 +64,6 @@ GIT
       homebrew (>= 1.6.6)
       sprout-base (>= 0.0.0)
       sprout-osx-settings (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-osx-settings
-  ref: master
-  sha: 2470797e8997688b731928cc78f48e51c3562803
-  specs:
-    sprout-osx-settings (0.1.0)
-      homebrew (>= 0.0.0)
-      osx (>= 0.0.0)
-      sprout-base (>= 0.0.0)
 
 GIT
   remote: https://github.com/pivotal-sprout/sprout-postgresql
@@ -118,6 +118,16 @@ GIT
       osx (>= 0.0.0)
       sprout-base (>= 0.0.0)
 
+GIT
+  remote: https://github.com/pivotal-sprout/sprout-vim
+  ref: master
+  sha: 8e6133a33f62abc9f1e5232bee446b74e45c4753
+  specs:
+    sprout-vim (0.1.0)
+      homebrew (>= 0.0.0)
+      sprout-base (>= 0.0.0)
+      sprout-osx-apps (>= 0.0.0)
+
 DEPENDENCIES
   osx (>= 0)
   sprout-base (>= 0)
@@ -132,4 +142,5 @@ DEPENDENCIES
   sprout-rubymine (>= 0)
   sprout-ssh (>= 0)
   sprout-terminal (>= 0)
+  sprout-vim (>= 0)
 
